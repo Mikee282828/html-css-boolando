@@ -43,7 +43,7 @@ i{
 }
 .card{
     position:relative;
-    width:calc((100% / 3) - (2 / 3)rem);
+    width:calc((100% / 3) - (2rem / 3));
 }
 .first-pic,.second-pic{
     width:100%;
@@ -61,17 +61,20 @@ i{
     padding:0.5rem;
     background-color: white;
     position:absolute;
-    top:1%;
+    top:%;
     right:0;
 }
 .fa-heart:hover{
     color:red;
 }
+.box-immagini{
+    position:relative;
+}
 .discount{
     background-color: red;
     padding:0.3rem;
     position:absolute;
-    bottom:7rem;
+    bottom:2rem;
     left:0;
     color:white;
 }
@@ -79,7 +82,7 @@ i{
     background-color: green;
     padding:0.3rem;
     position:absolute;
-    bottom:7rem;
+    bottom:2rem;
     left:3rem;
     color:white;
 }
