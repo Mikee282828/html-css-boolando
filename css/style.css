@@ -49,11 +49,13 @@ i{
     width:100%;
 }
 .first-pic{
-    position:absolute;  
+    position:absolute;
+    transition:all 300ms;  
 }
 .card:hover{
     .first-pic{
-        display:none;
+        opacity:0;
+        transition:all 300ms;
     }
 }
 .favorite i{
