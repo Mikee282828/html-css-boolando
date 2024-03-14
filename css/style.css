@@ -3,14 +3,19 @@
     font-family: sans-serif;
     margin:0;
 }
+main{
+    margin-top:6rem;
+}
 .fixed{
     position:fixed;
+    width:100%;
+    z-index: 999;
+    top:0;
 }
 header{
     background-color:rgb(255, 104, 1);
     box-shadow: 0 0 10px;
     padding:1rem 0;
-    margin-bottom:2rem;
 }
 .flex-container{
     display:flex;
